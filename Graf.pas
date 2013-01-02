@@ -9,6 +9,9 @@ var
 
 begin
 
+
+	(*Comment*)
+
 	write('Čas Merjenja: ');
 	readln(y);
 	write('Dolžina tira: ');
