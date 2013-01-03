@@ -1,7 +1,7 @@
 program Main;
 
 var
- a, b, c, d, e, g, x, y, f, h, i, j, k, l, m, n :integer;
+ a, b, c, d, e, g, x, y, f, h, i, j, k, l, m, n, o :integer;
  s:string;
  cas:array[1..10000] of integer;
  tir:array[1..10000] of integer;
@@ -9,6 +9,33 @@ var
 
 begin
 
+
+(*
+	
+	Variables:
+
+	a = Točka na stranici y
+	b = Točka na stranici x
+	c = Uporabljena pri for loop-u da v tabeli izpiše "—"
+	d = 
+	e =
+	f =
+	g =
+	h =
+	i =
+	j =
+	k =
+	l =
+	m =
+	n =
+	x =
+	y =
+	s =
+	cas =
+	tir = 
+	o =
+
+*)
 
 	write('Čas Merjenja: ');
 	readln(y);
@@ -59,11 +86,45 @@ begin
 			
 			k:=cas[f];
 			l:=tir[f];
-			
+
 			for b:= 1 to x do
 			
 				begin
 				
+				n:=1;
+
+				for o:= 1 to x do
+				begin
+					
+					m := tir[n];
+					n := n+1;
+
+					if e < m then
+						begin
+							
+						if m = b then
+						s:=('.');
+
+						end;	
+				end;
+
+
+
+				if k = e then
+					begin
+						
+						if l > b then
+
+							begin
+								
+							s:=('.')
+
+							end;
+
+					end;
+
+
+
 				if k = e then
 					begin
 						if l = b then
